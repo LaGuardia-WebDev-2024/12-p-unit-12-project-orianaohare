@@ -1,14 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delius&family=Poetsen+One&display=swap");
 
+@font-face{
+  font-family: cute;
+src: url("https://cdn.glitch.global/788cb2ae-f03a-4003-8932-6e3d7b4192f4/Wizards'%20Magic.ttf?v=1746040692651")
+}
 html {
-  background-color: white;
+  background-color: <;
   padding-left: 20px;
 }
 
 img{
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 h1 {
-  font-family: "Poetsen One", sans-serif;
+  font-family: cute;
+  color:hotpink;
+font-size: 100px;
 }
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wTuQe8b.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
