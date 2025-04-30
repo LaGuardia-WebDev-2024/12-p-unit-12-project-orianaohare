@@ -25,22 +25,28 @@ Select ONE Additional
     <button id="mem1-button">Memory #1</button>
     <button id="mem2-button">Memory #2</button>
     <button id="mem3-button">Memory #3</button>
-    <h1>My Top 3 Memories of <span>This Year</span></h1>
+    <h1>My Top Memories of <span>This Year</span></h1>
     <ol>
       <li>
         <h3 id="mem1">Memory #1</h3>
         <p>More about this memory.</p>
       </li>
-
+      <img 
+src="https://cdn.glitch.global/788cb2ae-f03a-4003-8932-6e3d7b4192f4/webcam-toy-photo12.jpg?v=1745954371814"
+width="300">
       <li>
         <h3 id="mem2">Memory #2</h3>
         <p>More about this memory.</p>
       </li>
 
+      <img src="https://cdn.glitch.global/788cb2ae-f03a-4003-8932-6e3d7b4192f4/WIN_20241202_15_24_26_Pro.jpg?v=1745954534946"
+width="300">
       <li>
         <h3 id="mem3">Memory #3</h3>
         <p>More about this memory</p>
       </li>
+<img src="https://cdn.glitch.global/788cb2ae-f03a-4003-8932-6e3d7b4192f4/oriana.JPG?v=1745954830181"
+width="300">
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -50,13 +56,36 @@ Select ONE Additional
       });
 
       $("#mem2-button").click(function () {
-        $("#mem2").css("color", "blue");
+        $("#mem2").css("color", "lightpink");
       });
 
       $("#mem3-button").click(function () {
-        $("#mem3").css("color", "green");
+        $("#mem3").css("color", "cyan");
       });
     </script>
+<script>
+$("h1").html("<u>Memories</u>");
+
+$("p").html(
+"this is a <strong> great </strong> memory"
+);
+
+$("img").attr(
+"src",
+"https://cdn.glitch.global/788cb2ae-f03a-4003-8932-6e3d7b4192f4/oriana.JPG?v=1745954830181"
+);
+$("h1").css("color","rgb(255,105,180)");
+</script>
+    
+<script
+src+"https://cdn.glitch.global/788cb2ae-f03a-4003-8932-6e3d7b4192f4/WIN_20241202_15_24_26_Pro.jpg?v=1745954534946"
+<script>
+$("li").text("web dev");
+$("#pageheading").text("me and friends");
+$(".animal").text("friends");
+    </script>
+
+
   </body>
 </html>
 
